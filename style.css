@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: 'Seoge UI', Tahoma, Geneva, Verdana sans-serif;
+    background: #f9fafc;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: #0f172a;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 3px solid #4a90e2;
+}
+ header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+ }
+
+ header p {
+    margin-top: 8px;
+    font-size: 1rem;
+    color: #cbd5e1;
+ }
+/* Navbar */
+nav {
+    background: white;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #333;
+    margin: 0 15px;
+    text decoration: none;
+    font-weight: 600;
+}
+
+nav a: hover {
+    color: #4a90e2
+    text-decoration: underline;
+}
+
+nav a {
+    display: inline;
+}
+@media screen(max width: 768px) {
+    nav a{
+        display: block;
+    }
+    
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 25px 0;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+/* Education Section */
+#education {
+    margin-top: 20px;
+}
+
+.edu-card {
+    background: #eee;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.skills-container {
+    margin-top: 10px;
+}
+.skill {
+    background: #e2e8f0;
+    color: #1e293b;
+    padding: 8px 14px;
+    margin: 6px;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.skill:hover{
+    background: #4a90e2;
+    color: white;
+}
+
+/* Leadership Section */
+#leadership {
+  margin-top: 20px;
+}
+
+.role-card {
+  background: #eee;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 8px;
+}
+
+.role-card h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.role-card ul {
+  padding-left: 20px;
+}
+
+.role-card li {
+  margin-bottom: 8px;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+}
